@@ -8,7 +8,7 @@ import sys
 # Define uma função de teste para validar o total de vendas
 def testar_total_vendas():
     resultado = calcular_total_vendas(vendas_mensais)  # Executa o cálculo com os dados atuais
-
+    vendas_mensais = [1000, 1000, 400]  # Total = 2400 (fora da faixa de 5000 a 10000)
     # Define os limites esperados para o total de vendas
     limite_minimo = 5000
     limite_maximo = 10000
